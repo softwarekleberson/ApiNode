@@ -1,0 +1,52 @@
+                        Instalar Todas As Bibliotecas do packt json  
+
+npm i                      
+                        
+                        Baixa o packt json
+
+yarn init -y (Baixa o packt json)
+
+yarn add -D  typescript nodemon ts-node @types/express @types/node (baixa o nodemon e o type)
+
+yarn add express pg typeorm dotenv reflect-metadata (baixando postgresql, orm do type)
+
+
+					Inicializando o TypeScript
+
+npx tsc --init
+
+                     Inicializando a aplicação
+
+yarn dev                   
+
+                        Gerando as migration
+
+yarn migration:generate
+
+
+                        Criando a migration
+
+yarn migration:run
+
+
+                        Importando biblioteca para Errors Midware, forma assincrona
+
+yarn add express-async-errors
+
+
+
+                    Biblioteca para criptografar Senhas
+
+npm install bcrypt
+npm install -D @types/bcrypt
+
+
+                    Intalar O jsonwebtoken
+
+npm install jsonwebtoken
+npm install -D @types/jsonwebtoken
+
+
+                    Biblioteca Validacao
+
+npm install express-validator
